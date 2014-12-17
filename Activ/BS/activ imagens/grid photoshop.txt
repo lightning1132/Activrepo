@@ -1,0 +1,14 @@
+Número de pixels para as guias para os psd's (padrão de 81p entre cada linha, conforme o grid do bootstrap para o canvas 
+de 970p de largura):
+81
+162
+243
+324
+405
+486
+567
+648
+729
+810
+891
+972

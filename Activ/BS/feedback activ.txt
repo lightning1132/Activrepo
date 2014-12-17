@@ -1,0 +1,14 @@
+agenda das comunidades
+fontes semi serifada
+nome do fulano com mais informações, como graduação, função, etc...
+diminuir os icones
+espaços brancos - tomar mais cuidado ainda
+posição dos post its customizavel
+
+modularização - usuario pode trocar o lugar dos post its
+expansível - usuário pode adicionar novos widgets "indefinidamente"
+
+
+SEM SCROLL
+a idéia é a caixa ser uma view rapida, se o usuario quer
+se aprofundar, ele clica no mais
