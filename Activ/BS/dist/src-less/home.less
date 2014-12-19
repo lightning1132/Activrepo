@@ -1,14 +1,21 @@
+@cores: "cor.less";
+@tamanhos: "pixels";
+@import "@{cores}";
+@import "@{tamanhos}";
+
 .fundo {
-  background-color: #f2f2f2;
+    background-color: @color-base;
 }
+
 .btn-mais {
-  background-color: transparent;
-  color: #ffffff;
-  border-left-width: 1px;
-  margin-top: -1px;
-  font-size: 15px;
-  float: right;
+	background-color: @cor-fundo-btn;
+	color: @cor-btn;
+	border-left-width: @1;
+	margin-top: @-1;
+	font-size: 15px;
+	float: right;
 }
+
 .btn-mais:focus,
 .btn-mais:active:focus,
 .btn-mais.active:focus,
@@ -17,13 +24,15 @@
 .btn-mais.active.focus {
   outline: none;
 }
+
 .btn:active,
 .btn.active {
   background-image: none;
   outline: 0;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0);
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0);
 }
+
 .footer {
   text-align: center;
   padding-top: 40px;
@@ -31,100 +40,124 @@
   margin-top: 1000px;
   border-top: 1px solid #eee;
 }
+
 .tooltip.right .tooltip-inner {
-  background-color: #3195ca;
+	background-color: @tooltip-cor;
 }
+
 .tooltip.right .tooltip-arrow {
-  border-right-color: #3195ca;
+	border-right-color: @tooltip-cor;
 }
-.list-unstyled2 > li > a {
-  color: #777;
+
+.list-unstyled2 > li > a{
+	color:#777;
 }
-.list-unstyled2 > li > a:hover,
-.list-unstyled2 > li > a:focus {
-  color: #333;
+
+.list-unstyled2 >li > a:hover,
+.list-unstyled2 >li > a:focus {
+  color:#333;
 }
+
 .busca1 {
   float: right;
 }
-#separador-horizontal {
+
+#separador-horizontal{
   height: 10px;
 }
+
 #boxzona {
   border-style: solid;
   border-width: 2px;
   border-color: #c6c6c6;
-  border-top: 1px;
-  border-bottom: 1px;
-  border-right: 1px;
+  border-top: @1;
+  border-bottom: @1;
+  border-right: @1;
 }
+
 #news {
-  width: 340px;
+  width: @std-content-width;
   height: 183px;
 }
+
 #news2 {
-  width: 340px;
+  width: @std-content-width;
   height: 162px;
   overflow-y: hidden;
 }
+
 #microblog {
-  width: 340px;
+  width: @std-content-width;
   height: 262px;
 }
+
 #microblog2 {
-  width: 340px;
+  width: @std-content-width;
   height: 241px;
   overflow-y: hidden;
 }
+
 #comunidades {
-  width: 340px;
+  width: @std-content-width;
   height: 110px;
 }
+
 #comunidades2 {
-  width: 340px;
+  width: @std-content-width;
   height: 89px;
   overflow-y: auto;
 }
+
 #agenda {
-  width: 340px;
+  width: @std-content-width;
   height: 183px;
 }
+
 #agenda2 {
-  width: 340px;
+  width: @std-content-width;
   height: 162px;
   overflow-y: hidden;
 }
+
 #recados {
-  width: 340px;
+  width: @std-content-width;
   height: 101px;
 }
+
 #recados2 {
-  width: 340px;
+  width: @std-content-width;
   height: 80px;
   overflow-y: hidden;
 }
+
 #tags {
-  width: 340px;
+  width: @std-content-width;
   height: 143px;
 }
+
+
 #tags2 {
-  width: 340px;
+  width: @std-content-width;
   height: 122px;
   overflow-y: hidden;
 }
+
 #amigos {
-  width: 340px;
+  width: @std-content-width;
   height: 110px;
 }
+
 #amigos2 {
-  width: 340px;
+  width: @std-content-width;
   height: 89px;
   overflow-y: hidden;
 }
+
 #exemplo {
   float: left;
-  font-size: 15px;
+  font-size: @std-content-fontsize;
 }
+
 #sug {
   margin-right: 10px;
 }
