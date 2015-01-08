@@ -16,10 +16,9 @@
     <title>Justified Nav Template for Bootstrap</title>
   
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="dist/css/bootstrap.css">
-    <link rel="stylesheet" href="dist\css\home.css">
-    <!-- Convertendo tudo para less usaremos a seguinte linha: 
-    <link rel="stylesheet" href="dist\css\styles.css">-->
+    <!-- <link rel="stylesheet" href="dist/css/bootstrap.css"> -->
+   
+    <link rel="stylesheet" href="dist\css\styles.css">
 
  
 
@@ -120,31 +119,31 @@ $(document).ready(function(){
         </div>
       </nav>
       <!-- FIM DA BARRA DE NAVEGAÇÃO PRINCIPAL -->
-
+      <div class="meuCont">
       <!-- Breadcrumbs, a.k.a. caminhozinho -->
-      <ol class="col-md-8 breadcrumb">
+      <ol class="col-md-8 breadcrumb meuCont">
         <li><a href="#">Home</a></li>
         <li><a href="#">Library</a></li>
         <li class="active">Data</li>
       </ol>
 
       <!-- Busca -->
-      <div class="col-md-4">
+      <div class="col-md-4 meuCont">
         <form action="#" class="busca1">
-          Busca: <input type="text" name="busca">
+           <input type="text" name="busca">
           <input type="submit" value="Submit">
         </form>
       </div>
-
+      <div class="clear"></div>
       <!-- INÍCIO DAS GRIDS DE CIMA -->
       <!-- INÍCIO DA DIV DA FOTO -->
-      <div class="col-md-12">  
+      <div class="col-md-12 meuCont">  
         <div class="media">
           <a class="media-left" href="#">
             <img src="activ imagens/foto.png">
           </a>
           <div class="media-body">
-            <h4 class="media-heading">Fulano</h4>
+            <h4 class="media-heading nome">Fulano</h4>
           </div>
         </div>
       </div>
@@ -154,7 +153,7 @@ $(document).ready(function(){
       <div class="col-md-12" id="separador-horizontal"></div>
       <!-- INÍCIO DAS TRÊS GRIDS PRINCIPAIS -->
       <!-- INÍCIO DA GRID DO MENU DO PERFIL -->
-      <div class="col-md-2">
+      <div class="col-md-2 col-md-2-custom meuCont">
         <div class="btn-group-vertical" role="group" aria-label="seila">
           <button type="button" class="btn btn-default"> 
             <a id="exemplo" href="#" data-toggle="tooltip" data-placement="right" title="Página Inicial"
@@ -196,7 +195,7 @@ $(document).ready(function(){
       <!-- FIM DA GRID DE MENU DO PERFIL -->
 
       <!-- ----------------------------------INÍCIO---------------------------------------------------- -->
-      <div class="col-md-3" id="tudao">
+      <div class="col-md-3 col-md-3-custom">
         <div class="col-md-12" id="boxzona">
           <div class="panel panel-primary"  id="news">
             <div class="panel-heading">
@@ -246,7 +245,7 @@ $(document).ready(function(){
       <!-- ---------------------------------FIM----------------------------------------------------- -->
 
       <!-- ---------------------------------INÍCIO----------------------------------------------------- -->
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-4 col-md-4-custom col-md-offset-1" id="tudao">
         <div class="col-md-12 col-md-offset-1 ">
           <div class="panel panel-primary" id="agenda">
             <div class="panel-heading">
@@ -301,20 +300,20 @@ $(document).ready(function(){
               <button type="button" class="btn btn-mais" aria-label="Ver mais">
               <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
             </div>
-              <div class="panel-body" id="amigos2">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              </div>
+            <div class="panel-body" id="amigos2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             </div>
+          </div>
         </div>
+      </div>
       </div>
       <!-- -----------------------------------FIM--------------------------------------------------- -->
       <div class="col-md-2">seila</div>
         <footer class="footer">
         <p>&copy; Company 2014</p>
       </footer>
-
-      
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
