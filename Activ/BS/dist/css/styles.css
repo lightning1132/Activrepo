@@ -6295,7 +6295,7 @@ button.close {
   border-left-width: 1px;
   margin-top: -1px;
   font-size: 15px;
-  float: right;
+  padding: 0px 0px 0px 0px;
 }
 .btn-mais:focus,
 .btn-mais:active:focus,
@@ -6337,6 +6337,10 @@ button.close {
 #separador-horizontal {
   height: 10px;
 }
+#segura-espaco {
+  height: 10px;
+  width: 50px;
+}
 #news {
   width: 340px;
   height: 183px;
@@ -6370,7 +6374,7 @@ button.close {
 }
 #agenda2 {
   width: 340px;
-  height: 162px;
+  height: 130px;
   overflow-y: hidden;
 }
 #recados {
@@ -6381,6 +6385,12 @@ button.close {
   width: 340px;
   height: 80px;
   overflow-y: hidden;
+}
+#habilidade {
+  width: 400px;
+  height: 70px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 #tags {
   width: 340px;
@@ -6393,11 +6403,11 @@ button.close {
 }
 #amigos {
   width: 340px;
-  height: 110px;
+  max-height: 110px;
 }
 #amigos2 {
   width: 340px;
-  height: 89px;
+  max-height: 72px;
   overflow-y: hidden;
 }
 #exemplo {
@@ -6420,13 +6430,13 @@ button.close {
   .col-md-4-custom {
     padding-left: 0px;
   }
+  .nome {
+    display: none;
+  }
 }
 .meuCont {
   display: table;
   margin: 0 auto;
-}
-.nome {
-  display: none;
 }
 @media (min-width: 992px) {
   .col-md-2 {
@@ -6452,4 +6462,23 @@ button.close {
 }
 .clear {
   clear: both;
+}
+.menuLateral {
+  font-size: 14px;
+  float: left;
+}
+.texto {
+  max-height: 100px;
+}
+.panel-body-custom {
+  padding: 0px 0px 0px 5px;
+}
+.panel-heading-custom {
+  padding: 0px 5px;
+}
+.divider-vertical {
+  height: 600px;
+  margin: 0px 0px;
+  border-right: 1px solid #777;
+  border-left: 0px solid #888;
 }

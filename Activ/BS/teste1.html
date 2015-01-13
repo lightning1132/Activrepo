@@ -6,38 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    
-
-
-
-
+  
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Justified Nav Template for Bootstrap</title>
+    <title>ACTIV</title>
   
     <!-- Bootstrap core CSS -->
     <!-- <link rel="stylesheet" href="dist/css/bootstrap.css"> -->
    
     <link rel="stylesheet" href="dist\css\styles.css">
 
- 
-
     <!-- Custom styles for this template -->
 
     <!-- Javscript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
     <script src="dist/js/bootstrap.js"></script>
+    <script src="dist/js/dropdown.js"></script>
 
-<script >
-$(document).ready(function(){
-    $('[data-toggle=tooltip]').tooltip(); 
-    $('.dropdown-toggle').dropdown('toggle')
-});
-
-
-            
-</script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -135,20 +121,38 @@ $(document).ready(function(){
         </form>
       </div>
       <div class="clear"></div>
+
       <!-- INÍCIO DAS GRIDS DE CIMA -->
+
       <!-- INÍCIO DA DIV DA FOTO -->
-      <div class="col-md-12 meuCont">  
+      <div class="col-md-1 meuCont">  
         <div class="media">
           <a class="media-left" href="#">
             <img src="activ imagens/foto.png">
           </a>
-          <div class="media-body">
-            <h4 class="media-heading nome">Fulano</h4>
+          
+        </div>
+      </div>
+
+       <div class="col-md-8">
+      <p>XIPLA</p>
+        <div class="panel panel-primary"  id="habilidade">
+          <div class="panel-heading panel-heading-custom">
+            <div class="panel-title">Habilidades
+              <button type="button" class="btn btn-mais" aria-label="Ver mais">
+              <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+            </div>
           </div>
+            <div class="panel-body panl-body-custom" id="news2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               Ut enim ad minim veniam,
+            </div>
         </div>
       </div>
       <!-- FIM DA DIV DA FOTO -->
       
+
+          
       <!-- FIM DAS GRIDS DE CIMA -->
       <div class="col-md-12" id="separador-horizontal"></div>
       <!-- INÍCIO DAS TRÊS GRIDS PRINCIPAIS -->
@@ -156,36 +160,36 @@ $(document).ready(function(){
       <div class="col-md-2 col-md-2-custom meuCont">
         <div class="btn-group-vertical" role="group" aria-label="seila">
           <button type="button" class="btn btn-default"> 
-            <a id="exemplo" href="#" data-toggle="tooltip" data-placement="right" title="Página Inicial"
-              class="blue-tooltip">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Página Inicial"
+              class="blue-tooltip menuLateral">
               <span class="glyphicon glyphicon glyphicon-home black" aria-hidden="true" ></span>
               Página Inicial
             </a>
           </button>
           <button type="button" class="btn btn-default">
-            <a id="exemplo" href="#" data-toggle="tooltip" data-placement="right" title="Chat"
-              class="blue-tooltip">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Chat"
+              class="blue-tooltip menuLateral">
               <span class="glyphicon glyphicon glyphicon-comment black" aria-hidden="true"></span>
               Mensagens
             </a>
           </button>
           <button type="button" class="btn btn-default">
-            <a id="exemplo" href="#" data-toggle="tooltip" data-placement="right" title="Convites"
-              class="blue-tooltip">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Convites"
+              class="blue-tooltip menuLateral">
               <span class="glyphicon glyphicon glyphicon-envelope black" aria-hidden="true"></span>
               Convites
             </a>
           </button>
           <button type="button" class="btn btn-default">
-            <a id="exemplo" href="#" data-toggle="tooltip" data-placement="right" title="Configurações"
-              class="blue-tooltip">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Configurações"
+              class="blue-tooltip menuLateral">
               <span class="glyphicon glyphicon glyphicon-cog black" aria-hidden="true"></span>
               Configurações
             </a>
           </button>
           <button type="button" class="btn btn-default">
-            <a id="exemplo" href="#" data-toggle="tooltip" data-placement="right" title="Dúvidas e Sugestões"
-              class="blue-tooltip">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Dúvidas e Sugestões"
+              class="blue-tooltip menuLateral">
               <span class="glyphicon glyphicon glyphicon-question-sign black" aria-hidden="true"></span>
               Dúvidas e <a id="sug"><br>Sugestões</a>
             </a>
@@ -198,13 +202,14 @@ $(document).ready(function(){
       <div class="col-md-3 col-md-3-custom">
         <div class="col-md-12" id="boxzona">
           <div class="panel panel-primary"  id="news">
-            <div class="panel-heading">
+            <div class="panel-heading panel-heading-custom">
               <div class="panel-title">Novidades
                 <button type="button" class="btn btn-mais" aria-label="Ver mais">
                 <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
               </div>
+
             </div>
-              <div class="panel-body" id="news2">
+              <div class="panel-body panel-body-custom" id="news2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               </div>
@@ -213,12 +218,12 @@ $(document).ready(function(){
 
         <div class="col-md-12 col-md-offset-0" id="boxzona">
           <div class="panel panel-primary" id="microblog">
-            <div class="panel-heading">
+            <div class="panel-heading panel-heading-custom">
               Microblog
               <button type="button" class="btn btn-mais" aria-label="Ver mais">
               <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
             </div>
-              <div class="panel-body" id="microblog2">
+              <div class="panel-body panel-body-custom" id="microblog2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -231,12 +236,12 @@ $(document).ready(function(){
 
         <div class="col-md-12 col-md-offset-0" id="boxzona">
           <div class="panel panel-primary" id="comunidades">
-            <div class="panel-heading">
+            <div class="panel-heading panel-heading-custom">
               Comunidades
               <button type="button" class="btn btn-mais" aria-label="Ver mais">
               <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
             </div>
-              <div class="panel-body" id="comunidades2">
+              <div class="panel-body panel-body-custom" id="comunidades2">
                 Lorem ipsum dolor sit amet, consectetur adipis
                 </div>
           </div>
@@ -248,12 +253,12 @@ $(document).ready(function(){
       <div class="col-md-4 col-md-4-custom col-md-offset-1" id="tudao">
         <div class="col-md-12 col-md-offset-1 ">
           <div class="panel panel-primary" id="agenda">
-            <div class="panel-heading">
+            <div class="panel-heading panel-heading-custom">
               Agenda
               <button type="button" class="btn btn-mais" aria-label="Ver mais">
               <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
             </div>
-              <div class="panel-body" id="agenda2">
+              <div class="panel-body panel-body-custom" id="agenda2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -266,12 +271,12 @@ $(document).ready(function(){
 
         <div class="col-md-12 col-md-offset-1">
           <div class="panel panel-primary" id="recados">
-            <div class="panel-heading">
+            <div class="panel-heading panel-heading-custom">
               Recados
               <button type="button" class="btn btn-mais" aria-label="Ver mais">
               <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
             </div>
-              <div class="panel-body" id="recados2">
+              <div class="panel-body panel-body-custom" id="recados2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 lorem
               </div>
@@ -280,12 +285,12 @@ $(document).ready(function(){
 
         <div class="col-md-12 col-md-offset-1">
           <div class="panel panel-primary" id="tags">
-            <div class="panel-heading">
+            <div class="panel-heading panel-heading-custom">
               Tags
               <button type="button" class="btn btn-mais" aria-label="Ver mais">
               <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
             </div>
-              <div class="panel-body" id="tags2">
+              <div class="panel-body panel-body-custom" id="tags2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 aiodjoaijoijuidhiahdiahdiai dkapdpaok qpofgtjqopgj opqajgoqj
                 lorem
@@ -295,30 +300,29 @@ $(document).ready(function(){
 
         <div class="col-md-12 col-md-offset-1">
           <div class="panel panel-primary" id="amigos">
-            <div class="panel-heading">
+            <div class="panel-heading panel-heading-custom">
               Amigos
               <button type="button" class="btn btn-mais" aria-label="Ver mais">
               <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
             </div>
-            <div class="panel-body" id="amigos2">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            <div class="panel-body panel-body-custom" id="amigos2">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              </p>
             </div>
           </div>
         </div>
       </div>
       </div>
       <!-- -----------------------------------FIM--------------------------------------------------- -->
-      <div class="col-md-2">seila</div>
-        <footer class="footer">
+      <footer class="footer">
         <p>&copy; Company 2014</p>
       </footer>
-    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    // <script src="dist/js/bootstrap.min.js"></script> -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   

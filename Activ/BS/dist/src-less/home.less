@@ -13,7 +13,7 @@
 	border-left-width: @1;
 	margin-top: @-1;
 	font-size: 15px;
-	float: right;
+	padding: 0px 0px 0px 0px;
 }
 
 .btn-mais:focus,
@@ -65,7 +65,10 @@
   height: 10px;
 }
 
-
+#segura-espaco{
+  height: 10px;
+  width: 50px;
+}
 
 #news {
   width: @std-content-width;
@@ -107,7 +110,7 @@
 
 #agenda2 {
   width: @std-content-width;
-  height: 162px;
+  height: 130px;
   overflow-y: hidden;
 }
 
@@ -120,6 +123,13 @@
   width: @std-content-width;
   height: 80px;
   overflow-y: hidden;
+}
+
+#habilidade{
+  width: 400px;
+  height: 70px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 #tags {
@@ -136,12 +146,12 @@
 
 #amigos {
   width: @std-content-width;
-  height: 110px;
+  max-height: 110px;
 }
 
 #amigos2 {
   width: @std-content-width;
-  height: 89px;
+  max-height: 72px;
   overflow-y: hidden;
 }
 
@@ -170,6 +180,10 @@
   .col-md-4-custom {
     padding-left: 0px;
   }
+
+  .nome {
+  display: none;
+}
 }
 
 .meuCont {
@@ -177,9 +191,7 @@
   margin: 0 auto;
 }
 
-.nome {
-  display: none;
-}
+
 
 @media (min-width: 992px)
 {
@@ -213,4 +225,28 @@
 
 .clear {
   clear: both;
+}
+
+.menuLateral {
+  font-size: @menu-lateral-fontsize;
+  float: left;
+}
+
+.texto {
+  max-height: 100px;
+}
+
+.panel-body-custom {
+  padding: 0px 0px 0px 5px;
+}
+
+.panel-heading-custom {
+  padding: 0px 5px;
+}
+
+.divider-vertical {
+height: 600px;
+margin: 0px 0px;
+border-right: 1px solid #777;
+border-left: 0px solid #888;
 }
