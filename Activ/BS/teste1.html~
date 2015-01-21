@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>ACTIV</title>
+  
+    <!-- Bootstrap core CSS -->
+    <!-- <link rel="stylesheet" href="dist/css/bootstrap.css"> -->
+   
+    <link rel="stylesheet" href="dist/css/styles.css">
+
+    <!-- Custom styles for this template -->
+
+    <!-- Javscript -->
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/bootstrap.js"></script>
+    <script src="dist/js/dropdown.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="fundo">
+    <div class="container">
+      <!-- INÍCIO DA BARRA DE NAVEGAÇÃO PRINCIPAL-->
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Cara da Minerva</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li>
+                <a data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                  <span class="glyphicon glyphicon glyphicon-user" aria-hidden="true"></span>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li role="presentation">
+                      <a role="menuitem" tabindex="-1" href="#">Amigos</a>
+                      <a role="menuitem" tabindex="-1" href="#">Comunidades</a>
+                    </li>
+                  </ul>
+                </a>
+              </li>
+
+              <li>
+                <a data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                  <span class="glyphicon glyphicon glyphicon-bullhorn" aria-hidden="true"></span>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li role = "presentation">
+                      <a role="menuitem" tabindex="-1" href="#">Microblog</a>
+                      <a role="menuitem" tabindex="-1" href="#">Chat</a>
+                      <a role="menuitem" tabindex="-1" href="#">Recados</a>
+                    </li>
+                  </ul>
+                </a>
+              </li>
+
+              <li>
+                <a data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                  <span class="glyphicon glyphicon glyphicon-book" aria-hidden="true"></span>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li role = "presentation">
+                      <a role="menuitem" tabindex="-1" href="#">Páginas</a>
+                      <a role="menuitem" tabindex="-1" href="#">Arquivos</a>
+                    </li>
+                  </ul>
+                </a>
+              </li>
+
+              <li>
+                <a data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                  <span class="glyphicon glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li role = "presentation">
+                      <a role="menuitem" tabindex="-1" href="#">Agenda</a>
+                    </li>
+                  </ul>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon glyphicon-log-out" aria-hidden="true"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- FIM DA BARRA DE NAVEGAÇÃO PRINCIPAL -->
+      <div class="meuCont">
+      <!-- Breadcrumbs, a.k.a. caminhozinho -->
+      <ol class="col-md-8 breadcrumb meuCont">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Library</a></li>
+        <li class="active">Data</li>
+      </ol>
+
+      <!-- Busca -->
+      <div class="col-md-4 meuCont">
+        <form action="#" class="busca1">
+           <input type="text" name="busca">
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="clear"></div>
+
+      <!-- INÍCIO DAS GRIDS DE CIMA -->
+
+      <!-- INÍCIO DA DIV DA FOTO -->
+      <div class="col-md-1 meuCont">  
+        <div class="media">
+          <a class="media-left" href="#">
+            <img src="activ imagens/foto.png">
+          </a>
+          
+        </div>
+      </div>
+
+       <div class="col-md-8">
+      <p>XIPLA</p>
+        <div class="panel panel-primary"  id="habilidade">
+          <div class="panel-heading panel-heading-custom">
+            <div class="panel-title">Habilidades
+              <button type="button" class="btn btn-mais" aria-label="Ver mais">
+              <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+            </div>
+          </div>
+            <div class="panel-body panl-body-custom" id="news2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               Ut enim ad minim veniam,
+            </div>
+        </div>
+      </div>
+      <!-- FIM DA DIV DA FOTO -->
+      
+
+          
+      <!-- FIM DAS GRIDS DE CIMA -->
+      <div class="col-md-12" id="separador-horizontal"></div>
+      <!-- INÍCIO DAS TRÊS GRIDS PRINCIPAIS -->
+      <!-- INÍCIO DA GRID DO MENU DO PERFIL -->
+      <div class="col-md-2 col-md-2-custom meuCont">
+        <div class="btn-group-vertical" role="group" aria-label="seila">
+          <button type="button" class="btn btn-default"> 
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Página Inicial"
+              class="blue-tooltip menuLateral">
+              <span class="glyphicon glyphicon glyphicon-home black" aria-hidden="true" ></span>
+              Página Inicial
+            </a>
+          </button>
+          <button type="button" class="btn btn-default">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Chat"
+              class="blue-tooltip menuLateral">
+              <span class="glyphicon glyphicon glyphicon-comment black" aria-hidden="true"></span>
+              Mensagens
+            </a>
+          </button>
+          <button type="button" class="btn btn-default">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Convites"
+              class="blue-tooltip menuLateral">
+              <span class="glyphicon glyphicon glyphicon-envelope black" aria-hidden="true"></span>
+              Convites
+            </a>
+          </button>
+          <button type="button" class="btn btn-default">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Configurações"
+              class="blue-tooltip menuLateral">
+              <span class="glyphicon glyphicon glyphicon-cog black" aria-hidden="true"></span>
+              Configurações
+            </a>
+          </button>
+          <button type="button" class="btn btn-default">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Dúvidas e Sugestões"
+              class="blue-tooltip menuLateral">
+              <span class="glyphicon glyphicon glyphicon-question-sign black" aria-hidden="true"></span>
+              Dúvidas e <a id="sug"><br>Sugestões</a>
+            </a>
+          </button>
+        </div>
+      </div>
+      <!-- FIM DA GRID DE MENU DO PERFIL -->
+
+      <!-- ----------------------------------INÍCIO---------------------------------------------------- -->
+      <div class="col-md-3 col-md-3-custom">
+        <div class="col-md-12" id="boxzona">
+          <div class="panel panel-primary"  id="news">
+            <div class="panel-heading panel-heading-custom">
+              <div class="panel-title">Novidades
+                <button type="button" class="btn btn-mais" aria-label="Ver mais">
+                <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+              </div>
+
+            </div>
+              <div class="panel-body panel-body-custom" id="news2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-md-offset-0" id="boxzona">
+          <div class="panel panel-primary" id="microblog">
+            <div class="panel-heading panel-heading-custom">
+              Microblog
+              <button type="button" class="btn btn-mais" aria-label="Ver mais">
+              <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+            </div>
+              <div class="panel-body panel-body-custom" id="microblog2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-md-offset-0" id="boxzona">
+          <div class="panel panel-primary" id="comunidades">
+            <div class="panel-heading panel-heading-custom">
+              Comunidades
+              <button type="button" class="btn btn-mais" aria-label="Ver mais">
+              <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+            </div>
+              <div class="panel-body panel-body-custom" id="comunidades2">
+                Lorem ipsum dolor sit amet, consectetur adipis
+                </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------FIM----------------------------------------------------- -->
+
+      <!-- ---------------------------------INÍCIO----------------------------------------------------- -->
+      <div class="col-md-4 col-md-4-custom col-md-offset-1" id="tudao">
+        <div class="col-md-12 col-md-offset-1 ">
+          <div class="panel panel-primary" id="agenda">
+            <div class="panel-heading panel-heading-custom">
+              Agenda
+              <button type="button" class="btn btn-mais" aria-label="Ver mais">
+              <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+            </div>
+              <div class="panel-body panel-body-custom" id="agenda2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md-12 col-md-offset-1">
+          <div class="panel panel-primary" id="recados">
+            <div class="panel-heading panel-heading-custom">
+              Recados
+              <button type="button" class="btn btn-mais" aria-label="Ver mais">
+              <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+            </div>
+              <div class="panel-body panel-body-custom" id="recados2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                lorem
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-md-offset-1">
+          <div class="panel panel-primary" id="tags">
+            <div class="panel-heading panel-heading-custom">
+              Tags
+              <button type="button" class="btn btn-mais" aria-label="Ver mais">
+              <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+            </div>
+              <div class="panel-body panel-body-custom" id="tags2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                aiodjoaijoijuidhiahdiahdiai dkapdpaok qpofgtjqopgj opqajgoqj
+                lorem
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-md-offset-1">
+          <div class="panel panel-primary" id="amigos">
+            <div class="panel-heading panel-heading-custom">
+              Amigos
+              <button type="button" class="btn btn-mais" aria-label="Ver mais">
+              <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+            </div>
+            <div class="panel-body panel-body-custom" id="amigos2">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- -----------------------------------FIM--------------------------------------------------- -->
+      <footer class="footer">
+        <p>&copy; Company 2014</p>
+      </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    // <script src="dist/js/bootstrap.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body></html>
