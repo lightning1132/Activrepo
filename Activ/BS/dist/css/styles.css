@@ -6387,10 +6387,8 @@ button.close {
   overflow-y: hidden;
 }
 #habilidade {
-  width: 400px;
-  height: 70px;
-  margin-top: 30px;
-  margin-left: 20px;
+  width: 705px;
+  height: 90px;
 }
 #tags {
   width: 340px;
@@ -6456,9 +6454,6 @@ button.close {
   .col-md-3-custom {
     width: 21%;
   }
-  .col-md-2-custom {
-    width: 12%;
-  }
 }
 .clear {
   clear: both;
@@ -6481,4 +6476,28 @@ button.close {
   margin: 0px 0px;
   border-right: 1px solid #777;
   border-left: 0px solid #888;
+}
+
+@-moz-document url-prefix() {
+    fieldset {
+        display: table-cell;
+    }
+}
+
+.minerva {
+  width: ;
+  height: 52px;
+  float: left;
+}
+
+.univ {
+  float: right;
+}
+
+.bagui {
+  float: right;
+}
+
+.nome {
+  padding-left:     
 }
