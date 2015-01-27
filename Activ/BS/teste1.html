@@ -14,15 +14,18 @@
     <!-- Bootstrap core CSS -->
     <!-- <link rel="stylesheet" href="dist/css/bootstrap.css"> -->
    
-    <link rel="stylesheet" href="dist/css/styles.css">
     <!-- Custom styles for this template -->
 
     <!-- Javscript -->
     <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/head.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="dist/js/bootstrap.js"></script>
     <script src="dist/js/dropdown.js"></script>
 
+    <script>
+      head.test(head.browser.ff,"dist/css/styles2.css", "dist/css/styles.css")
+    </script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -126,15 +129,15 @@
       <!-- INÍCIO DAS GRIDS DE CIMA -->
 
       <!-- INÍCIO DA DIV DA FOTO -->
-      <div class="col-md-2  meuCont">  
+      <div class="col-md-2 col-md-2-custom">  
         <div class="media">
           <a class="media-left" href="#">
             <img src="activ imagens/foto.png">
           </a>
         </div>
-
+        <div class="col-md-12" id="separador-horizontal"></div>
         <!-- INÍCIO DA GRID DO MENU DO PERFIL -->
-      <div class="col-md-2 meuCont">
+      <div>
         <div class="btn-group-vertical" role="group" aria-label="seila">
           <button type="button" class="btn btn-default"> 
             <a href="#" data-toggle="tooltip" data-placement="right" title="Página Inicial"
@@ -178,11 +181,7 @@
       </div>
 
       <div class="col-md-8">
-        <div class="row">
-          <div class="col-md-3">
-            <a href="" class="nome">XIPLA</a>
-          </div>
-        </div>
+        
         <div class="row">
         <div class="col-md-12">
           <div class="panel panel-primary"  id="habilidade">
@@ -192,8 +191,11 @@
                   <span class="glyphicon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
               </div>
             </div>
-            <div class="panel-body panl-body-custom" id="news2">
-              Lorem ipsum dolor sit amet
+            <div class="panel-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quisr incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               
             </div>
           </div>
         </div>
@@ -204,14 +206,12 @@
 
           
       <!-- FIM DAS GRIDS DE CIMA -->
-      <div class="col-md-12" id="separador-horizontal"></div>
       <!-- INÍCIO DAS TRÊS GRIDS PRINCIPAIS -->
       
 
       <!-- ----------------------------------INÍCIO---------------------------------------------------- -->
-      <div class="col-md-3 col-md-3-custom">
-        <div class="col-md-12" id="boxzona">
-          <div class="panel panel-primary"  id="news">
+      <div class="col-md-4">
+          <div class="panel panel-primary">
             <div class="panel-heading panel-heading-custom">
               <div class="panel-title">Novidades
                 <button type="button" class="btn btn-mais" aria-label="Ver mais">
@@ -224,9 +224,7 @@
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               </div>
           </div>
-        </div>
 
-        <div class="col-md-12 col-md-offset-0" id="boxzona">
           <div class="panel panel-primary" id="microblog">
             <div class="panel-heading panel-heading-custom">
               Microblog
@@ -242,9 +240,7 @@
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
           </div>
-        </div>
 
-        <div class="col-md-12 col-md-offset-0" id="boxzona">
           <div class="panel panel-primary" id="comunidades">
             <div class="panel-heading panel-heading-custom">
               Comunidades
@@ -255,13 +251,12 @@
                 Lorem ipsum dolor sit amet, consectetur adipis
                 </div>
           </div>
-        </div>
       </div>
       <!-- ---------------------------------FIM----------------------------------------------------- -->
 
       <!-- ---------------------------------INÍCIO----------------------------------------------------- -->
-      <div class="col-md-4 col-md-4-custom col-md-offset-1" id="tudao">
-        <div class="col-md-12 col-md-offset-1 ">
+      <div class="col-md-4">
+        <div>
           <div class="panel panel-primary" id="agenda">
             <div class="panel-heading panel-heading-custom">
               Agenda
@@ -279,7 +274,7 @@
             </div>
         </div>
 
-        <div class="col-md-12 col-md-offset-1">
+        <div>
           <div class="panel panel-primary" id="recados">
             <div class="panel-heading panel-heading-custom">
               Recados
@@ -293,7 +288,7 @@
           </div>
         </div>
 
-        <div class="col-md-12 col-md-offset-1">
+        <div>
           <div class="panel panel-primary" id="tags">
             <div class="panel-heading panel-heading-custom">
               Tags
@@ -308,7 +303,7 @@
           </div>
         </div>
 
-        <div class="col-md-12 col-md-offset-1">
+        <div>
           <div class="panel panel-primary" id="amigos">
             <div class="panel-heading panel-heading-custom">
               Amigos
