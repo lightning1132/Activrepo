@@ -6335,77 +6335,63 @@ button.close {
   float: right;
 }
 #separador-horizontal {
-  height: 10px;
+  height: 17px;
 }
 #segura-espaco {
   height: 10px;
   width: 50px;
 }
 #news {
-  width: 340px;
-  height: 183px;
+  min-height: 183px;
 }
 #news2 {
-  width: 340px;
-  height: 162px;
+  min-height: 162px;
   overflow-y: hidden;
 }
 #microblog {
-  width: 340px;
-  height: 262px;
+  min-height: 262px;
 }
 #microblog2 {
-  width: 340px;
-  height: 241px;
+  min-height: 241px;
   overflow-y: hidden;
 }
 #comunidades {
-  width: 340px;
-  height: 110px;
+  min-height: 110px;
 }
 #comunidades2 {
-  width: 340px;
-  height: 89px;
+  min-height: 89px;
   overflow-y: auto;
 }
 #agenda {
-  width: 340px;
-  height: 183px;
+  min-height: 183px;
 }
 #agenda2 {
-  width: 340px;
-  height: 130px;
+  min-height: 140px;
   overflow-y: hidden;
 }
 #recados {
-  width: 340px;
-  height: 101px;
+  min-height: 101px;
 }
 #recados2 {
-  width: 340px;
-  height: 80px;
+  min-height: 80px;
   overflow-y: hidden;
 }
 #habilidade {
-  width: 705px;
-  height: 90px;
+  width: 100%;
+  overflow-y: hidden;
 }
 #tags {
-  width: 340px;
-  height: 143px;
+  min-height: 143px;
 }
 #tags2 {
-  width: 340px;
-  height: 122px;
+  min-height: 122px;
   overflow-y: hidden;
 }
 #amigos {
-  width: 340px;
-  max-height: 110px;
+  min-height: 110px;
 }
 #amigos2 {
-  width: 340px;
-  max-height: 72px;
+  min-height: 72px;
   overflow-y: hidden;
 }
 #exemplo {
@@ -6431,16 +6417,20 @@ button.close {
   .nome {
     display: none;
   }
+  #separador-horizontal2 {
+    height: 17px;
+  }
+  .meuCont {
+    display: table;
+    margin: 0 auto;
+  }
 }
-.meuCont {
-  display: table;
-  margin: 0 auto;
-}
+
 @media (min-width: 992px) {
   .col-md-2 {
     float: left;
   }
-  .col-md-2 {
+  .col-md-2-custom {
     width: 15%;
   }
   .col-md-3-custom {
@@ -6449,10 +6439,14 @@ button.close {
 }
 @media (min-width: 1200px) {
   .col-md-2 {
-    width: 16.66666667%;
+    width: 14%;
   }
   .col-md-3-custom {
     width: 21%;
+  }
+
+  .col-md-3-search {
+    width: 23.8%;
   }
 }
 .clear {
@@ -6500,4 +6494,10 @@ button.close {
 
 .nome {
   padding-left:     
+}
+
+.add-on .input-group-btn > .btn {
+  border-left-width:0;left:-2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }

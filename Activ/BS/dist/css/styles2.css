@@ -6342,39 +6342,38 @@ button.close {
   width: 50px;
 }
 #news {
-  width: 340px;
-  height: 183px;
+  min-height: 183px;
 }
 #news2 {
-  height: 162px;
+  min-height: 162px;
   overflow-y: hidden;
 }
 #microblog {
-  height: 262px;
+  min-height: 262px;
 }
 #microblog2 {
-  height: 241px;
+  min-height: 241px;
   overflow-y: hidden;
 }
 #comunidades {
-  height: 110px;
+  min-height: 110px;
 }
 #comunidades2 {
-  height: 89px;
+  min-height: 89px;
   overflow-y: auto;
 }
 #agenda {
-  height: 188px;
+  min-height: 188px;
 }
 #agenda2 {
-  height: 130px;
+  min-height: 140px;
   overflow-y: hidden;
 }
 #recados {
-  height: 101px;
+  min-height: 101px;
 }
 #recados2 {
-  height: 80px;
+  min-height: 80px;
   overflow-y: hidden;
 }
 #habilidade {
@@ -6382,17 +6381,17 @@ button.close {
   overflow-y: hidden;
 }
 #tags {
-  height: 143px;
+  min-height: 143px;
 }
 #tags2 {
-  height: 122px;
+  min-height: 122px;
   overflow-y: hidden;
 }
 #amigos {
-  max-height: 110px;
+  min-height: 110px;
 }
 #amigos2 {
-  max-height: 72px;
+  min-height: 72px;
   overflow-y: hidden;
 }
 #exemplo {
@@ -6415,15 +6414,18 @@ button.close {
   .col-md-4-custom {
     padding-left: 0px;
   }
-
   .nome {
     display: none;
   }
+  #separador-horizontal2 {
+    height: 17px;
+  }
+  .meuCont {
+    display: table;
+    margin: 0 auto;
+  }
 }
-.meuCont {
-  display: table;
-  margin: 0 auto;
-}
+
 @media (min-width: 992px) {
   .col-md-2 {
     float: left;
@@ -6495,9 +6497,20 @@ button.close {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-/* stop the glowing blue shadow */
+
+
+/*stop the glowing blue shadow
 .add-on .form-control:focus {
  box-shadow:none;
  -webkit-box-shadow:none; 
  border-color:#cccccc; 
-}
+}*/
+
+
+
+
+
+
+
+
+
